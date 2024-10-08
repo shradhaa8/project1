@@ -1,0 +1,94 @@
+.navs{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.footer{
+    padding: 20px 10px ;
+    background: rgb(123, 168, 236);
+    text-justify: inter-word;
+}
+.footer-para{
+    font-family: "Poppins";
+    font-size: 16;
+    font-weight: 400;
+ }
+ .footer ul li{
+    list-style: none;
+ }
+ .footer .fa{
+    color: aliceblue;
+ }
+ .products{
+    background: rgb(176, 194, 252);
+    padding: 50px 0px;
+}
+.products .card:hover{
+    width: 100%;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: blue;
+    
+}
+.icons .card{
+    padding: 100px 80px;
+    
+}
+.forms{
+    padding: 50px;
+    background: rgb(176, 194, 252);
+}
+.info p::before{
+    content: " About us ";
+    background-color: rgb(54, 174, 179);
+    color: white;
+    font-size: 20px;
+}
+.info p::after{
+    content: " Contact us ";
+    background-color: rgb(54, 174, 179);
+    color: white;
+    font-size: 20px;
+}
+.info{
+    padding: 50px;
+    background-color: rgb(206, 216, 248);
+}
+
+.icons{
+    padding: 30px;
+}
+.icons .card:hover {
+    background-color: rgb(175, 175, 175);
+}
+.icons .card .card-title{
+    text-align: center;
+}
+.icons .card i{
+    text-align: center;
+}
+
+ @media only screen and (max-width:1020){
+    .col{
+        color: rgb(233, 46, 177);
+        font-size: 80px;
+
+    }
+    
+ }
+ @media only screen and (max-width:992px){
+    .col{
+        color: red;
+        font-size: 40px;
+
+    }
+
+ }
+ @media only screen and (max-width:768px){
+    .col{
+        color: blue;
+        font-size: 40px;
+
+    }
+ }
