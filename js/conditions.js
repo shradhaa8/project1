@@ -71,6 +71,15 @@ let cartItems = [
                 price:1000
             }
         ]
+    },
+    {
+        name:"chiara",
+        products:[
+            {
+                title:"ear-ring",
+                price:1000
+            }
+        ]
     }
 ]
 const total = cartItems.map(item => {
